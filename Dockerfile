@@ -12,6 +12,6 @@ From gcr.io/distroless/base
 
 COPY --from=build /app/main .
 COPY --from=build /app/static ./static
-EXPOSE 8080
+EXPOSE 8081
 
 CMD ["./main"]

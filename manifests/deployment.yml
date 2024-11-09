@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: jofinjoy/go-web-app:v1
+        image: jofinjoy/go-web-app:v3
         ports:
-        - containerPort: 8080
+        - containerPort: 8081
